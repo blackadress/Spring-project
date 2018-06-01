@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+     "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="home.index" template="/WEB-INF/views/templates/templateUser.jsp">
+		<put-attribute name="content" value="/WEB-INF/views/home/index.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="home.index" template="/WEB-INF/views/templates/templateUser.jsp">
+		<put-attribute name="content" value="/WEB-INF/views/blog/index.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="home.index" template="/WEB-INF/views/templates/templateUser.jsp">
+		<put-attribute name="content" value="/WEB-INF/views/blogSingle/index.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="home.index" template="/WEB-INF/views/templates/templateUser.jsp">
+		<put-attribute name="content" value="/WEB-INF/views/cart/index.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="home.index" template="/WEB-INF/views/templates/templateUser.jsp">
+		<put-attribute name="content" value="/WEB-INF/views/checkout/index.jsp"></put-attribute>
+	</definition>
+
+	<definition name="home.index" template="/WEB-INF/views/templates/templateUser.jsp">
+		<put-attribute name="content" value="/WEB-INF/views/contactUs/index.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="home.index" template="/WEB-INF/views/templates/templateUser.jsp">
+		<put-attribute name="content" value="/WEB-INF/views/login/index.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="home.index" template="/WEB-INF/views/templates/templateUser.jsp">
+		<put-attribute name="content" value="/WEB-INF/views/productDetails/index.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="home.index" template="/WEB-INF/views/templates/templateUser.jsp">
+		<put-attribute name="content" value="/WEB-INF/views/shop/index.jsp"></put-attribute>
+	</definition>
+	
+</tiles-definitions>
